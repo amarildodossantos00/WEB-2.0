@@ -3,8 +3,33 @@
 	<head>
 		<title>Style Text</title>
 		<meta charset="UTF-8"/>
+		<style>
+			body {
+				font-size: 40px;
+				font-family: 'Courier New', Courier, monospace;
+			}
+			.strong {
+				/* normal, bold, 100 until 900*/
+				font-weight: bold;
+			}
+			.italic {
+				font-style: italic;
+			}
+			.formatation {
+				/*text-decoration: underline;*/
+				/*text-decoration: overline;*/
+				text-decoration: line-through;
+			}
+			.text {
+				font: bold 20px Arial;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Teste</h1>
+		<p class="strong">Text strong</p>
+		<p class="italic">Text italic</p>
+		<p class="formatation">Text italic</p>
+		<p class="text">Text</p>
+		<p>Normal</p>
 	</body>
 </html>
